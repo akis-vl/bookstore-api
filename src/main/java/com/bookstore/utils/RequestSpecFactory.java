@@ -10,7 +10,8 @@ public final class RequestSpecFactory {
 
     private static RequestSpecification spec;
 
-    private RequestSpecFactory() { }
+    private RequestSpecFactory() {
+    }
 
     public static RequestSpecification get() {
         if (spec == null) {
