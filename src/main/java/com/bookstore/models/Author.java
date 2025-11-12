@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Author {
     private Integer id;
-    private String idBook; // string/int variations
+    private String idBook;
     private String firstName;
     private String lastName;
 }

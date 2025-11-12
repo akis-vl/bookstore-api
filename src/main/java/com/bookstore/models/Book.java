@@ -15,5 +15,5 @@ public class Book {
     private String description;
     private Integer pageCount;
     private String excerpt;
-    private String publishDate; // ISO-8601
+    private String publishDate;
 }
