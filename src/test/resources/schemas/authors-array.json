@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": [
+      "id",
+      "firstName",
+      "lastName"
+    ],
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "idBook": {
+        "type": "integer"
+      },
+      "firstName": {
+        "type": "string"
+      },
+      "lastName": {
+        "type": "string"
+      }
+    }
+  }
+}
