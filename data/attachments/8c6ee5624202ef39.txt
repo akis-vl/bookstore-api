@@ -1,8 +1,0 @@
-{
-    "id": 283356,
-    "title": "Edna O'Brien (Updated)",
-    "description": "Unde corporis dicta sed qui sed.",
-    "pageCount": 201,
-    "excerpt": "Dignissimos delectus nihil. Dolorem nulla rerum laboriosam. Quidem aut eligendi nesciunt deserunt ducimus quia quis. Labore placeat velit vitae.",
-    "publishDate": "2025-11-14T09:14:44.4290082Z"
-}

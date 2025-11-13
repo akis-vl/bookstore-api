@@ -1,0 +1,6 @@
+{
+    "id": 56298,
+    "idBook": 3,
+    "firstName": "Stefania",
+    "lastName": "Torp"
+}
