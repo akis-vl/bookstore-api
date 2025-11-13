@@ -1,0 +1,8 @@
+{
+    "id": 360595,
+    "title": "The Line of Beauty (Updated)",
+    "description": "Quia sit doloribus earum dolorem cum magni reprehenderit.",
+    "pageCount": 200,
+    "excerpt": "Beatae nisi voluptatum autem quia magnam. Odio eum necessitatibus maxime. Soluta molestiae veritatis officia.",
+    "publishDate": "2025-11-14T07:52:45.7504763Z"
+}

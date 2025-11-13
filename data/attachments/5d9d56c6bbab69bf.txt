@@ -1,8 +1,0 @@
-{
-    "id": 28855,
-    "title": "It's a Battlefield",
-    "description": "Neque porro ut voluptas dolore ipsum asperiores.",
-    "pageCount": 318,
-    "excerpt": "Dolor officiis rem reprehenderit. Occaecati officiis eligendi rerum consequatur enim ex iusto. Nobis dolores dolorum soluta.",
-    "publishDate": "2025-11-14T07:47:09.0186194Z"
-}

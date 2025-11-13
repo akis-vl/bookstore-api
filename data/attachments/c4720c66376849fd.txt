@@ -1,6 +1,0 @@
-{
-    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.4",
-    "title": "Not Found",
-    "status": 404,
-    "traceId": "00-3a6013fde32ad84d88f6684b92937edb-0498e1393505c444-00"
-}
