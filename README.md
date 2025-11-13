@@ -115,7 +115,8 @@ https://fakerestapi.azurewebsites.net/api/v1
 
 The pipeline:
 
-1. Runs tests with Java 21
+1a. Automatically upon push, runs tests that are tagged with "smoke"
+1b. Manually, the user can select one of the tags: "regression" or "smoke"
 2. Generates Allure report
 3. Uploads report as an artifact
 4. Publishes Allure report to GitHub Pages
