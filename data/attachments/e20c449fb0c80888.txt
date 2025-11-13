@@ -1,8 +1,0 @@
-{
-    "id": 809952,
-    "title": "The Painted Veil (Updated)",
-    "description": "Delectus modi rerum.",
-    "pageCount": 143,
-    "excerpt": "Pariatur molestiae dicta ipsum. Enim ut quasi quaerat quasi. Expedita animi inventore dicta. In a accusamus quis rerum repellendus eos est.",
-    "publishDate": "2025-11-14T11:03:30.8020043Z"
-}
