@@ -1,8 +1,0 @@
-{
-    "id": 875810,
-    "title": "Unweaving the Rainbow (Updated)",
-    "description": "Ad dolorum et in placeat accusantium.",
-    "pageCount": 620,
-    "excerpt": "Est dolorum quis. Natus doloribus ratione. Vitae ipsum nihil id.",
-    "publishDate": "2025-11-14T10:31:17.0206042Z"
-}
