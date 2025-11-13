@@ -5,14 +5,6 @@
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
 
-    <test name="Books API Tests">
-        <classes>
-            <class name="com.bookstore.books.GetBooksTests"/>
-            <class name="com.bookstore.books.CrudBooksTests"/>
-            <class name="com.bookstore.books.NegativeBooksTests"/>
-        </classes>
-    </test>
-
     <test name="Authors API Tests">
         <classes>
             <class name="com.bookstore.authors.GetAuthorsTests"/>
