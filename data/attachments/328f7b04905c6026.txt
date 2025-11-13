@@ -1,8 +1,0 @@
-{
-    "id": 60735,
-    "title": "Of Mice and Men (Updated)",
-    "description": "Magnam dicta cupiditate omnis alias magnam praesentium.",
-    "pageCount": 145,
-    "excerpt": "Laboriosam corrupti accusantium labore sit asperiores. Animi fuga vero qui aut quae. Dolor rerum consequatur.",
-    "publishDate": "2025-11-14T10:01:01.6075307Z"
-}

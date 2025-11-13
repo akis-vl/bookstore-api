@@ -1,8 +1,0 @@
-{
-    "id": 60735,
-    "title": "The Man Within",
-    "description": "Quis quis debitis ullam in quia non est.",
-    "pageCount": 348,
-    "excerpt": "At corrupti eligendi reiciendis tempora omnis. Porro pariatur ullam laudantium quos consequatur. Nostrum officia ad voluptatem voluptatum quidem.",
-    "publishDate": "2025-11-14T10:01:00.763928Z"
-}
