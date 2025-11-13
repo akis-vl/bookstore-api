@@ -1,8 +1,0 @@
-{
-    "id": 169208,
-    "title": "Lilies of the Field (Updated)",
-    "description": "Neque magni qui sed voluptatem.",
-    "pageCount": 685,
-    "excerpt": "Qui enim ipsum aut. Praesentium maiores qui. Et nesciunt laborum aliquid.",
-    "publishDate": "2025-11-14T10:02:49.8571347Z"
-}
