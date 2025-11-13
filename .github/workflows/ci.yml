@@ -26,6 +26,7 @@ jobs:
         run: mvn clean test -B
 
       - name: Install Allure CLI
+        if: always()
         run: |
           wget https://github.com/allure-framework/allure2/releases/download/2.30.0/allure-2.30.0.tgz
           tar -zxvf allure-2.30.0.tgz
