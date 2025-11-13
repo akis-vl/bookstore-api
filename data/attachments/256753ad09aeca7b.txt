@@ -1,0 +1,8 @@
+{
+    "id": 564643,
+    "title": "Vanity Fair (Updated)",
+    "description": "Ut corrupti unde aperiam.",
+    "pageCount": 506,
+    "excerpt": "Sed doloribus aut qui et molestiae. Natus voluptas ullam voluptatem non aperiam enim. Necessitatibus culpa nostrum. Neque alias cum consequatur facere molestias aspernatur.",
+    "publishDate": "2025-11-14T10:59:25.9365356Z"
+}

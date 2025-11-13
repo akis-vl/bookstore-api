@@ -1,8 +1,0 @@
-{
-    "id": 868241,
-    "title": "Tiger! Tiger! (Updated)",
-    "description": "Fugiat adipisci rerum non qui.",
-    "pageCount": 584,
-    "excerpt": "Sunt sunt ea deleniti occaecati praesentium quia. Magni in earum sapiente tenetur vel libero velit. Sint qui eius.",
-    "publishDate": "2025-11-14T10:47:49.1454607Z"
-}
