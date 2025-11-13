@@ -1,8 +1,0 @@
-{
-    "id": 677610,
-    "title": "The Far-Distant Oxus (Updated)",
-    "description": "Sequi quam sed nobis quae tenetur omnis.",
-    "pageCount": 947,
-    "excerpt": "Cum omnis ut aut eos. Voluptatem repellendus saepe architecto dolor. Est qui cupiditate. Sunt aut rem quis dolorem adipisci. Omnis iure quam nobis et.",
-    "publishDate": "2025-11-14T08:31:22.1338091Z"
-}
