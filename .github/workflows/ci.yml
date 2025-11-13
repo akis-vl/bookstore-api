@@ -2,12 +2,13 @@ name: Bookstore API Tests
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
+  workflow_dispatch:
 
 jobs:
   test:
-    name: Run API Tests
+    name: Run API Tests and Publish Allure Report
     runs-on: ubuntu-latest
 
     steps:
