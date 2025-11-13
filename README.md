@@ -16,43 +16,24 @@ This project automates testing of the **Bookstore API** using:
 
 ```
 bookstore-api/
-├── .github/workflows/ci.yml
-├── pom.xml
-├── README.md
 └── src/
     ├── main/
     │   └── java/
     │       └── com/bookstore/
     │           ├── api/
-    │           │   ├── AuthorClient.java
-    │           │   ├── BaseClient.java
-    │           │   └── BookClient.java
     │           ├── config/
-    │           │   └── TestConfig.java
     │           ├── models/
-    │           │   ├── Author.java
-    │           │   └── Book.java
     │           └── utils/
-    │               └── RequestSpecFactory.java
     └── test/
-        └── java/
-            └── com/bookstore/
-                ├── base/
-                │   └── BaseTest.java
-                ├── books/
-                │   ├── CrudBooksTests.java
-                │   ├── GetBooksTests.java
-                │   └── NegativeBooksTests.java
-                └── data/
-                    └── TestData.java
+        ├── java/
+        │   └── com/bookstore/
+        │       ├── authors/
+        │       ├── base/
+        │       ├── books/
+        │       └── data/
         └── resources/
             ├── schemas/
-            │   ├── author.json
-            │   ├── authors-array.json
-            │   ├── book.json
-            │   └── books-array.json
             └── suites/
-                └── testng.xml
 ```
 
 ---
@@ -126,20 +107,6 @@ target/site/allure-maven-plugin/index.html
 Set inside the API client base class:
 ```
 https://fakerestapi.azurewebsites.net/api/v1
-```
-
----
-
-## 📚 JSON Schema Validation
-
-Schemas live in:
-```
-src/test/resources/schemas/
-```
-
-Tests use:
-```java
-matchesJsonSchemaInClasspath("schemas/book.json")
 ```
 
 ---
