@@ -1,8 +1,0 @@
-{
-    "id": 360595,
-    "title": "The Golden Bowl",
-    "description": "Molestiae qui voluptates pariatur.",
-    "pageCount": 443,
-    "excerpt": "Accusantium fuga quos corporis nam aperiam quibusdam mollitia. Beatae dolore et. Magni voluptate debitis recusandae. Inventore quos inventore unde et dolor.",
-    "publishDate": "2025-11-14T07:52:40.7829704Z"
-}
