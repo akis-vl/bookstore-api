@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Bookstore API Suite" parallel="classes">
+<suite name="Authors API Suite" parallel="classes">
 
     <listeners>
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
