@@ -11,6 +11,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
+@Test(groups = {"smoke", "regression"})
 public class GetBooksTests extends BaseTest {
 
     private final BookClient books = new BookClient();

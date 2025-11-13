@@ -10,8 +10,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.equalTo;
 
+@Test(groups = {"smoke", "regression"})
 public class CrudBooksTests extends BaseTest {
 
     private BookClient book;

@@ -5,9 +5,7 @@ import com.bookstore.base.BaseTest;
 import io.qameta.allure.Description;
 import org.testng.annotations.Test;
 
-import static org.hamcrest.Matchers.anyOf;
-import static org.hamcrest.Matchers.is;
-
+@Test(groups = {"regression"})
 public class NegativeAuthorsTests extends BaseTest {
 
     private final AuthorClient books = new AuthorClient();
