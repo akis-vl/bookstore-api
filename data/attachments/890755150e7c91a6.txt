@@ -1,8 +1,0 @@
-{
-    "id": 905734,
-    "title": "Consider Phlebas (Updated)",
-    "description": "Consequatur earum possimus cumque.",
-    "pageCount": 334,
-    "excerpt": "Unde numquam molestias quaerat pariatur. Facere est magni minima. Dolores sunt consequatur consequatur reprehenderit beatae non deleniti. Ea ratione consectetur nemo ut voluptatibus dignissimos eum. Iure sed quia ut rem nisi.",
-    "publishDate": "2025-11-14T11:05:06.878851Z"
-}
