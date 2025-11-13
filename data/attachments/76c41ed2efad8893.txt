@@ -1,8 +1,0 @@
-{
-    "id": 769118,
-    "title": "Jacob Have I Loved",
-    "description": "Vel eaque magnam officia occaecati quia est ipsam.",
-    "pageCount": 230,
-    "excerpt": "Ut doloremque voluptas sed corporis aut error. Excepturi vel quia et rerum culpa. Cumque itaque veritatis dolor officiis enim harum.",
-    "publishDate": "2025-11-14T07:59:29.3230274Z"
-}

@@ -1,0 +1,8 @@
+{
+    "id": 414914,
+    "title": "Brandy of the Damned",
+    "description": "Et consectetur voluptas.",
+    "pageCount": 405,
+    "excerpt": "Corrupti occaecati dicta. Et asperiores ratione perspiciatis deleniti laboriosam quis ipsum. Voluptas doloribus nemo sequi. Reprehenderit aliquid qui molestias cupiditate ut omnis fugiat. Sed quo et.",
+    "publishDate": "2025-11-14T08:26:55.0942086Z"
+}

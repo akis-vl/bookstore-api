@@ -1,0 +1,8 @@
+{
+    "id": 414914,
+    "title": "The Lathe of Heaven (Updated)",
+    "description": "Iusto animi eum.",
+    "pageCount": 645,
+    "excerpt": "Vero est soluta aut. Magnam eligendi in quis. Quis sapiente sapiente neque quisquam.",
+    "publishDate": "2025-11-14T08:27:02.1516306Z"
+}
