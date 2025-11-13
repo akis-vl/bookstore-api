@@ -1,8 +1,0 @@
-{
-    "id": 743895,
-    "title": "A Passage to India",
-    "description": "Illum reiciendis similique.",
-    "pageCount": 936,
-    "excerpt": "Qui distinctio eaque voluptatem odio consequatur. Odio sit eum quasi sit laudantium consectetur non. Aspernatur et nesciunt recusandae dicta aut blanditiis aut.",
-    "publishDate": "2025-11-14T10:29:03.9200941Z"
-}

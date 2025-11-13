@@ -1,8 +1,0 @@
-{
-    "id": 743895,
-    "title": "Behold the Man (Updated)",
-    "description": "Rerum minus qui quia omnis.",
-    "pageCount": 437,
-    "excerpt": "Et quia est. Alias voluptas corporis non quis. Possimus eum officiis dolores aut eius. Qui deserunt voluptatem adipisci voluptas assumenda sint. Velit velit deleniti et.",
-    "publishDate": "2025-11-14T10:29:04.8489865Z"
-}
