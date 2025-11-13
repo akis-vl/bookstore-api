@@ -6,14 +6,14 @@ on:
 
   workflow_dispatch:
     inputs:
-      group:
+      tag:
+        type: choice
         description: "Which test group to run"
         required: true
-        type: choice
         default: "regression"
         options:
-          - smoke
           - regression
+          - smoke
 
 jobs:
   test:
