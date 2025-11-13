@@ -1,0 +1,8 @@
+{
+    "id": 28855,
+    "title": "An Acceptable Time (Updated)",
+    "description": "Ratione autem at impedit repellendus magnam sunt.",
+    "pageCount": 623,
+    "excerpt": "Veniam temporibus sit natus non quibusdam nulla dolor. Deleniti neque et quibusdam et. Provident fugit libero rerum consectetur. Et dolores voluptas molestias quos consectetur. Aut consequatur reiciendis eos.",
+    "publishDate": "2025-11-14T07:47:17.5229383Z"
+}

@@ -1,8 +1,0 @@
-{
-    "id": 766655,
-    "title": "Lilies of the Field",
-    "description": "Dolorum architecto corporis porro.",
-    "pageCount": 317,
-    "excerpt": "Iure reiciendis quae ut occaecati quia unde aspernatur. Fugit et est. Dicta dolores veniam rerum alias similique quidem occaecati.",
-    "publishDate": "2025-11-14T06:52:46.8862676Z"
-}
