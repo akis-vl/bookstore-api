@@ -3,14 +3,14 @@ name: Bookstore API Tests
 on:
   push:
     branches: [ main ]
-  pull_request:
+
   workflow_dispatch:
     inputs:
       group:
-        description: "Which TestNG group to run"
+        description: "Which test group to run"
         required: true
-        default: "smoke"
         type: choice
+        default: "regression"
         options:
           - smoke
           - regression
@@ -31,8 +31,17 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+      - name: Determine tag
+        id: tag
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "tag=${{ github.event.inputs.tag }}" >> $GITHUB_OUTPUT
+          else
+            echo "tag=smoke" >> $GITHUB_OUTPUT
+          fi
+
       - name: Build and run tests
-        run: mvn clean test -B
+        run: mvn clean test -B -Dgroups=${{ steps.tag.outputs.tag }}
         continue-on-error: true
 
       - name: Install Allure CLI
