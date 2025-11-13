@@ -1,8 +1,0 @@
-{
-    "id": 897977,
-    "title": "Rosemary Sutcliff",
-    "description": "Eos similique nesciunt laborum repellendus excepturi et molestiae.",
-    "pageCount": 857,
-    "excerpt": "Fuga minima sit maiores fuga inventore numquam reiciendis. Occaecati nam fugit. Occaecati aliquid quaerat distinctio.",
-    "publishDate": "2025-11-14T08:34:58.155483Z"
-}
