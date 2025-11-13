@@ -1,8 +1,0 @@
-{
-    "id": 564643,
-    "title": "His Dark Materials",
-    "description": "Ea quo totam.",
-    "pageCount": 966,
-    "excerpt": "Et ea quasi deserunt ea inventore ea cupiditate. Nemo numquam modi quibusdam. Dolore est aut in ipsum et ab. Consequatur sint dolores blanditiis alias cum. Temporibus qui aperiam voluptates veniam magnam.",
-    "publishDate": "2025-11-14T10:59:24.6697338Z"
-}
