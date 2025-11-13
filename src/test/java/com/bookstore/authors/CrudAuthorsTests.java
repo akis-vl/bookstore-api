@@ -35,7 +35,7 @@ public class CrudAuthorsTests extends BaseTest {
         var response = author.create(payload);
         logAndAttach(response, "POST", "/Authors");
 
-        response.then().statusCode(anyOf(is(200)))
+        response.then().statusCode(200)
                 .body("id", equalTo(id))
                 .body("firstName", equalTo(payload.getFirstName()))
                 .body("lastName", equalTo(payload.getLastName()));
@@ -47,13 +47,12 @@ public class CrudAuthorsTests extends BaseTest {
 
     @Test(priority = 2, description = "Retrieve created author", dependsOnMethods = "createAuthor_shouldSucceed")
     @Description("Retrieve created author")
-    public void getCreatedAuthor_shouldReturn200or404() {
+    public void getCreatedAuthor_shouldReturn200() {
 
         var response = author.getById(authorId);
         logAndAttach(response, "GET", "/Authors/" + authorId);
 
-        // FakeRestAPI returns 404 for non-persistent data, so allow both
-        response.then().statusCode(anyOf(is(200), is(404)));
+        response.then().statusCode(200);
     }
 
     @Test(priority = 3, description = "Update created author", dependsOnMethods = "createAuthor_shouldSucceed")
@@ -68,12 +67,11 @@ public class CrudAuthorsTests extends BaseTest {
 
         var putResponse = author.update(authorId, updated);
         logAndAttach(putResponse, "PUT", "/Authors/" + authorId);
-        putResponse.then().statusCode(anyOf(is(200)));
+        putResponse.then().statusCode(200);
 
         var getResponse = author.getById(authorId);
         logAndAttach(getResponse, "GET", "/Authors/" + authorId + " (after update)");
-        // FakeRestAPI returns 404 for non-persistent data, so allow both
-        getResponse.then().statusCode(anyOf(is(200), is(404)));
+        getResponse.then().statusCode(200);
     }
 
     @Test(priority = 4, description = "Delete created author", dependsOnMethods = "createAuthor_shouldSucceed")
@@ -82,10 +80,10 @@ public class CrudAuthorsTests extends BaseTest {
 
         var deleteResponse = author.delete(authorId);
         logAndAttach(deleteResponse, "DELETE", "/Authors/" + authorId);
-        deleteResponse.then().statusCode(anyOf(is(200)));
+        deleteResponse.then().statusCode(200);
 
         var getResponse = author.getById(authorId);
         logAndAttach(getResponse, "GET", "/Authors/" + authorId + " (after delete)");
-        getResponse.then().statusCode(anyOf(is(404)));
+        getResponse.then().statusCode(404);
     }
 }

@@ -19,7 +19,7 @@ public class NegativeBooksTests extends BaseTest {
 
         var response = books.getById(id);
         logAndAttach(response, "GET", "/Books/" + id);
-        response.then().statusCode(anyOf(is(404)));
+        response.then().statusCode(404);
     }
 
     @Test(description = "POST with invalid payload should yield 400")
@@ -31,6 +31,6 @@ public class NegativeBooksTests extends BaseTest {
 
         var response = books.create(invalid);
         logAndAttach(response, "POST", "/Books");
-        response.then().statusCode(anyOf(is(400)));
+        response.then().statusCode(400);
     }
 }

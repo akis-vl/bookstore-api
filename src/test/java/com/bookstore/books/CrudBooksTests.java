@@ -34,7 +34,7 @@ public class CrudBooksTests extends BaseTest {
         var response = book.create(payload);
         logAndAttach(response, "POST", "/Books");
 
-        response.then().statusCode(anyOf(is(200)))
+        response.then().statusCode(200)
                 .body("id", equalTo(id))
                 .body("title", equalTo(payload.getTitle()));
 
@@ -45,13 +45,12 @@ public class CrudBooksTests extends BaseTest {
 
     @Test(priority = 2, description = "Retrieve created book", dependsOnMethods = "createBook_shouldSucceed")
     @Description("Retrieve created book")
-    public void getCreatedBook_shouldReturn200or404() {
+    public void getCreatedBook_shouldReturn200() {
 
         var response = book.getById(bookId);
         logAndAttach(response, "GET", "/Books/" + bookId);
 
-        // FakeRestAPI doesn’t persist data, so we accept 200 or 404
-        response.then().statusCode(anyOf(is(200), is(404)));
+        response.then().statusCode(200);
     }
 
     @Test(priority = 3, description = "Update created book", dependsOnMethods = "createBook_shouldSucceed")
@@ -66,12 +65,11 @@ public class CrudBooksTests extends BaseTest {
 
         var putResponse = book.update(bookId, updated);
         logAndAttach(putResponse, "PUT", "/Books/" + bookId);
-        putResponse.then().statusCode(anyOf(is(200)));
+        putResponse.then().statusCode(200);
 
         var getResponse = book.getById(bookId);
         logAndAttach(getResponse, "GET", "/Books/" + bookId + " (after update)");
-        // FakeRestAPI returns 404 for non-persistent data, so allow both
-        getResponse.then().statusCode(anyOf(is(200), is(404)));
+        getResponse.then().statusCode(200);
     }
 
     @Test(priority = 4, description = "Delete created book", dependsOnMethods = "createBook_shouldSucceed")
@@ -80,10 +78,10 @@ public class CrudBooksTests extends BaseTest {
 
         var deleteResponse = book.delete(bookId);
         logAndAttach(deleteResponse, "DELETE", "/Books/" + bookId);
-        deleteResponse.then().statusCode(anyOf(is(200)));
+        deleteResponse.then().statusCode(200);
 
         var getResponse = book.getById(bookId);
         logAndAttach(getResponse, "GET", "/Books/" + bookId + " (after delete)");
-        getResponse.then().statusCode(anyOf(is(404)));
+        getResponse.then().statusCode(404);
     }
 }
