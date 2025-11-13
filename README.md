@@ -1,5 +1,5 @@
 
-# Bookstore API Automation Tests (Java 21 + RestAssured + TestNG + Allure + GitHub Actions)
+# Bookstore API Automation Tests
 
 This project automates testing of the **Bookstore API** using:
 - **Java 21**
@@ -16,7 +16,7 @@ This project automates testing of the **Bookstore API** using:
 
 ```
 bookstore-api/
-├── .gitignore
+├── .github/workflows/ci.yml
 ├── pom.xml
 ├── README.md
 └── src/
@@ -29,9 +29,11 @@ bookstore-api/
     │           │   └── BookClient.java
     │           ├── config/
     │           │   └── TestConfig.java
-    │           └── models/
-    │               ├── Author.java
-    │               └── Book.java
+    │           ├── models/
+    │           │   ├── Author.java
+    │           │   └── Book.java
+    │           └── utils/
+    │               └── RequestSpecFactory.java
     └── test/
         └── java/
             └── com/bookstore/
@@ -173,11 +175,3 @@ Pipeline uses:
 - `if: always()` for Allure generation and publishing
 
 So failed tests still produce full reports.
-
----
-
-## 🧹 Clean Project
-
-```
-mvn clean
-```
