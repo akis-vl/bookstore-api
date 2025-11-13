@@ -25,7 +25,7 @@ jobs:
         run: mvn clean test -B
 
       - name: Generate Allure report
-        uses: simple-elf/allure-report-action@v1.7
+        uses: simple-elf/allure-report-action@v1.9
         with:
           allure_results: target/allure-results
           allure_report: target/allure-report
