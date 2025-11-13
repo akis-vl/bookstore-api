@@ -115,12 +115,12 @@ https://fakerestapi.azurewebsites.net/api/v1
 
 The pipeline:
 
-1a. Automatically upon push, runs tests that are tagged with "smoke"
-1b. Manually, the user can select one of the tags: "regression" or "smoke"
-2. Generates Allure report
-3. Uploads report as an artifact
-4. Publishes Allure report to GitHub Pages
-5. Adds a clickable summary link
+1. Automatically upon push, runs tests that are tagged with "smoke"
+2. Manually, the user can select one of the tags: "regression" or "smoke"
+3. Generates Allure report
+4. Uploads report as an artifact
+5. Publishes Allure report to GitHub Pages
+6. Adds a clickable summary link
 
 Workflow file is in:
 
