@@ -1,0 +1,8 @@
+{
+    "id": 283356,
+    "title": "Specimen Days",
+    "description": "Nisi officiis omnis illum.",
+    "pageCount": 123,
+    "excerpt": "Optio eveniet dolor illo. Eaque ut ut. Ut quidem et necessitatibus.",
+    "publishDate": "2025-11-14T09:14:43.3849703Z"
+}

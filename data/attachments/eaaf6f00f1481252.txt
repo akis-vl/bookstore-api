@@ -1,8 +1,0 @@
-{
-    "id": 235657,
-    "title": "The Soldier's Art",
-    "description": "Rerum tempora hic aliquam voluptatem quo fugiat eos.",
-    "pageCount": 159,
-    "excerpt": "Eaque commodi natus accusantium corporis perspiciatis. Beatae doloribus officiis eaque harum. Officia alias autem. Fuga id commodi dolor.",
-    "publishDate": "2025-11-14T09:13:55.6866829Z"
-}

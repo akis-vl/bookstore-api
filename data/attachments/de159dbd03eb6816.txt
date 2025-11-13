@@ -1,8 +1,0 @@
-{
-    "id": 235657,
-    "title": "Paths of Glory (Updated)",
-    "description": "Doloribus et enim repellendus.",
-    "pageCount": 556,
-    "excerpt": "Facere molestias illo aut error perferendis. Qui autem et fuga aspernatur nisi. Corporis optio nemo. Nihil consequatur et voluptas autem accusantium.",
-    "publishDate": "2025-11-14T09:13:56.3914675Z"
-}
