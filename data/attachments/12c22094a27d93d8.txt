@@ -1,8 +1,0 @@
-{
-    "id": 253842,
-    "title": "Gone with the Wind",
-    "description": "In illo porro.",
-    "pageCount": 259,
-    "excerpt": "Nihil at deserunt quo voluptatum voluptatem aperiam neque. Impedit repudiandae quia facere quia natus aliquam nisi. Deserunt ut reiciendis. Qui quibusdam et similique dolor aut dolor. In repellendus temporibus.",
-    "publishDate": "2025-11-14T11:10:53.8655122Z"
-}

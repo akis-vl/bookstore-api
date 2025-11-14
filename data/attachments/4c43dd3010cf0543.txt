@@ -1,0 +1,8 @@
+{
+    "id": 76638,
+    "title": "O Pioneers!",
+    "description": "Tempora totam quo.",
+    "pageCount": 417,
+    "excerpt": "Iure labore consequatur laborum quia aut incidunt. Eveniet temporibus nesciunt. Voluptas alias porro deleniti aut. Cupiditate cumque rerum itaque. Enim qui pariatur et.",
+    "publishDate": "2025-11-15T07:24:36.6599357Z"
+}

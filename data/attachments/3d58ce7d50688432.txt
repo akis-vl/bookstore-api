@@ -1,0 +1,8 @@
+{
+    "id": 0,
+    "title": "A Catskill Eagle (Updated)",
+    "description": "In quis vero dolorum nisi nobis.",
+    "pageCount": 895,
+    "excerpt": "Eos minus omnis cumque repudiandae. Dolorem est architecto omnis voluptas quasi. Amet ipsa consequatur quam voluptatum repellendus qui voluptatibus. Est voluptatem fuga sit.",
+    "publishDate": "2025-11-15T07:24:37.376422Z"
+}
