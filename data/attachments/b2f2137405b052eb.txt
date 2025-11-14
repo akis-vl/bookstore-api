@@ -4,5 +4,5 @@
     "description": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
     "pageCount": 100,
     "excerpt": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\n",
-    "publishDate": "2025-11-13T07:29:53.7911992+00:00"
+    "publishDate": "2025-11-13T07:31:56.6835954+00:00"
 }

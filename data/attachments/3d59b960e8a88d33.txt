@@ -1,0 +1,11 @@
+{
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-f1e041ce4654bf409c8e955e341980aa-185022cdabb3644c-00",
+    "errors": {
+        "$.id": [
+            "The JSON value could not be converted to System.Int32. Path: $.id | LineNumber: 0 | BytePositionInLine: 10."
+        ]
+    }
+}

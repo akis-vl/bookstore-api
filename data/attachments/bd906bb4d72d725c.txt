@@ -1,0 +1,8 @@
+{
+    "id": 0,
+    "title": "Taming a Sea Horse (Updated)",
+    "description": "Nostrum quo tempora.",
+    "pageCount": 548,
+    "excerpt": "Ipsum dicta dolores. Voluptatem recusandae accusamus et libero esse quae inventore. Esse consequatur quam et nostrum.",
+    "publishDate": "2025-11-15T07:31:57.1546422Z"
+}

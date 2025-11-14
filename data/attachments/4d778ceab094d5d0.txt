@@ -1,0 +1,8 @@
+{
+    "id": 516449,
+    "title": "The Road Less Traveled",
+    "description": "Sed recusandae nobis veritatis dolorem.",
+    "pageCount": 324,
+    "excerpt": "Hic et sed natus. Eos vero ea aliquam est nisi in hic. Ut esse quos aliquid. Earum ut voluptatem blanditiis molestias.",
+    "publishDate": "2025-11-15T07:31:56.4778566Z"
+}
