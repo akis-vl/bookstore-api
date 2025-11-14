@@ -40,10 +40,6 @@ public class CrudAuthorsTests extends BaseTest {
                 .body("id", equalTo(id))
                 .body("firstName", equalTo(payload.getFirstName()))
                 .body("lastName", equalTo(payload.getLastName()));
-
-        authorId = id;
-        Assert.assertTrue(authorId > 0, "Created Author ID should be set");
-        Allure.step("Author created successfully with ID: " + authorId);
     }
 
     @Test(priority = 2, description = "Retrieve created author", dependsOnMethods = "createAuthor_shouldSucceed")

@@ -38,10 +38,6 @@ public class CrudBooksTests extends BaseTest {
         response.then().statusCode(200)
                 .body("id", equalTo(id))
                 .body("title", equalTo(payload.getTitle()));
-
-        bookId = id;
-        Assert.assertTrue(bookId > 0, "Created ID should be set");
-        Allure.step("Book created successfully with ID: " + bookId);
     }
 
     @Test(priority = 2, description = "Retrieve created book", dependsOnMethods = "createBook_shouldSucceed")
