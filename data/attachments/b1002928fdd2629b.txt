@@ -1,0 +1,8 @@
+{
+    "id": 0,
+    "title": "Dance Dance Dance (Updated)",
+    "description": "Itaque deleniti ut quis qui tempore.",
+    "pageCount": 690,
+    "excerpt": "Quos et rerum voluptas iure eaque. Inventore dolores numquam dignissimos aperiam. Eos atque magni qui quaerat enim magnam. Optio voluptatem ex accusantium ad excepturi.",
+    "publishDate": "2025-11-15T07:29:54.583539Z"
+}
