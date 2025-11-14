@@ -54,7 +54,7 @@ You need:
 
 ### 1. Clone the Repository
 ```
-git clone git@github.com:akis-vl/bookstore-api.git
+git clone https://github.com/akis-vl/bookstore-api.git
 cd bookstore-api
 ```
 
@@ -128,7 +128,7 @@ Workflow file is in:
 .github/workflows/ci.yml
 ```
 
-Once GitHub Pages is enabled, your report will be available at:
+The report is available at:
 
 ```
 https://akis-vl.github.io/bookstore-api/
